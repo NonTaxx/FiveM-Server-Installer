@@ -1,0 +1,11 @@
+[
+  {
+    "name": "admin",
+    "master": false,
+    "password_hash": "$2a$11$jiiSV8DjCb9iyZ7POIflbeHqGwWwVSZ1lTWdmWs9SG8ryWKXhZ1B6",
+    "providers": {},
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+]

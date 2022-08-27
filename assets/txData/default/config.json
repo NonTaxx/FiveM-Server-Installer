@@ -1,0 +1,46 @@
+{
+  "global": {
+    "serverName": "LazyRP",
+    "language": "lt"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [
+      "03:00",
+      "08:00"
+    ],
+    "restarterScheduleWarnings": [
+      30,
+      15,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "disableChatWarnings": false
+  },
+  "statsCollector": {},
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join discord.io/lazyrlplay.\nYour ID: <id>",
+    "wipePendingWLOnStart": true
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": true,
+    "token": "ODE3NDc1MDc2ODgxNTE0NTE2.YEKC_g.U8aLccn_uyCnqrbmR-NbPtXiHzo",
+    "announceChannel": "817476333151846480",
+    "prefix": "/",
+    "statusMessage": "**IP:** `Connect: lazyrp.ddns.net`\n**Žaidėjei:** <players>\n**Veikimo Laikas:** <uptime>"
+  },
+  "fxRunner": {
+    "serverDataPath": "/root/servas/",
+    "cfgPath": "/root/servas/server.cfg",
+    "autostart": true
+  }
+}
